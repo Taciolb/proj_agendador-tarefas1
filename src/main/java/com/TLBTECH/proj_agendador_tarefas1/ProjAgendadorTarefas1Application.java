@@ -2,8 +2,10 @@ package com.TLBTECH.proj_agendador_tarefas1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
+@EnableFeignClients
 public class ProjAgendadorTarefas1Application {
 
 	public static void main(String[] args) {
